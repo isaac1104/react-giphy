@@ -6,7 +6,7 @@ const Picture = (props) => {
     <div className="picture-container">
       {props.url.map((url) => {
         return(
-          <img src={url} alt="image" className="img-fluid img-responsive rounded img-thumbnail"/>
+          <img src={url} alt="image" className="img-fluid img-responsive rounded"/>
         )
       })}
     </div>

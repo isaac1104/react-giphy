@@ -3,6 +3,10 @@ img {
   height: 300px;
 }
 
+.picture-container > img {
+  border: 2px solid #f99e1a;
+}
+
 .picture-container {
   display: flex;
   justify-content: center;
