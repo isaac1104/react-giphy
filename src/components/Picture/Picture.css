@@ -1,0 +1,14 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  max-height: 500px;
+}
